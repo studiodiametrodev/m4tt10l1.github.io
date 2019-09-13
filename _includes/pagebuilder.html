@@ -2,5 +2,9 @@
 {% assign modules = site.data.builder[include.slug] %}
 {% for module_hash in modules %}
 {% assign module = module_hash[1] %}
-<div class="module">{{ module }}</div>
+<div class="module">
+  {{ module_hash[0] }}
+  
+  <div> include module_hash[0] </div>
+</div>
 {% endfor %}
