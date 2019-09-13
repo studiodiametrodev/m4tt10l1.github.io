@@ -1,5 +1,5 @@
 ---
-title: m4tt10l1 home page
+title: My page
 layout: default
 ---
 
