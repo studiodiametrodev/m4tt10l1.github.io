@@ -1,0 +1,4 @@
+{ 
+  "slider_top": { "name": "Slider Top", "type": "slider_top", "partial": "slider_top.html"},
+  "jumbotron": { "name": "Jumbotron", "type": "jumbotron", "partial": "jumbotron.html"} 
+}
