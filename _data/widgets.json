@@ -1,4 +1,4 @@
 { 
-  "slider_top": { "name": "Slider Top", "type": "slider_top", "partial": "slider_top.html"},
+  "carousel": { "name": "Carousel", "type": "carousel", "partial": "carousel.html"},
   "jumbotron": { "name": "Jumbotron", "type": "jumbotron", "partial": "jumbotron.html"} 
 }
