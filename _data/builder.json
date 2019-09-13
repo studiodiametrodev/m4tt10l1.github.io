@@ -1,0 +1,6 @@
+{
+"post-1": { 
+            "jumbotron": { "title": "Jumbo Tron", "description": "What is that?", "button": { "link": "/", "text": "show!" }},
+            "carousel": { "title": "Carousel", "description": "What is that?", "button": { "link": "/", "text": "show!" }} 
+           }
+}
