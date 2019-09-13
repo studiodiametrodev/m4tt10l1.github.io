@@ -1,8 +1,8 @@
 <div class="jumbotron">
     <div class="container">
-      <h2 class="display-3">{{ include.content.title }}</h2>
+      <h2 class="display-3">{ { include.content.title } }</h2>
         <code>{{ include.content }}</code>
-      <div>{{ include.content.description }}</div>
-      <p><a class="btn btn-primary btn-lg" href="{{ include.content.button.link }}" role="button">{{ include.content.button.text }}</a></p>
+      <div>{ { include.content.description } }</div>
+      <p><a class="btn btn-primary btn-lg" href="{ { include.content.button.link } }" role="button">{ { include.content.button.text } }</a></p>
     </div>
   </div>
