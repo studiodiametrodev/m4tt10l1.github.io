@@ -1,5 +1,5 @@
 {{ include.slug }}
 {% assign modules = site.data.builder[include.slug] %}
 {% for module in modules %}
-{{ module.type }}
+<div class="module">{{ module.type }}</div>
 {% endfor %}
