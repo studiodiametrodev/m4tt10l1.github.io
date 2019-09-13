@@ -1,5 +1,5 @@
 ---
-title: m4tt10l1 home page
+title: m4t home page
 layout: default
 ---
 
