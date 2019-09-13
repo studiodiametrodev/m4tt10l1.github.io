@@ -1,6 +1,6 @@
 ---
-title: My page
+title: m4tt10l1 home page
 layout: default
 ---
 
-# {{ page.title }}
+<h1>{{ page.title }}</h1>
