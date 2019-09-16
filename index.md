@@ -11,7 +11,7 @@ carousel:
 ---
 {% capture page_carousel %}{{page.carousel}}{% endcapture %}
 
-{% include carousel.html params=page_carousel %}
+{% include carousel.html params=page.carousel %}
 <section class="sec-1">
   <div class="container">
     <h1>{{ page.title }}</h1>
