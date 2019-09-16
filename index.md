@@ -4,7 +4,7 @@ layout: default
 slug: /
 carousel:
   - title: Titolo carousel Home
-  - description: Descrizione el carousel in home page
+  - description: Descrizione del carousel in home page
   - button:
   - link: /posts/post-1.html
   - text: Post 1
