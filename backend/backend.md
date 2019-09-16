@@ -12,5 +12,4 @@ layout: backend.html
 <div class="text-center">
   <button name="data" type="submit" class="btn btn-primary">salva</button>
 </div>
-  
 </form>
