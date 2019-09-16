@@ -5,6 +5,6 @@
 <div class="module">
   {{ module_hash[0] }}
   
-  <div> include module_hash[0] </div>
+  <div> {% include ".html" | prepend: module_hash[0] %} </div>
 </div>
 {% endfor %}
