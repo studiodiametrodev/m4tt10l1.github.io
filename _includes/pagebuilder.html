@@ -4,6 +4,6 @@
 {% assign module = module_hash[1] %}
 {% assign module_file = ".html" | prepend: module_hash[0] %}
 <div class="module">
-{% include {{ module_file }} slug="{{ include.slug }}" %}
+{% include {{ module_file }} slug=include.slug %}
 </div>
 {% endfor %}
