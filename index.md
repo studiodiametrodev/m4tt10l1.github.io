@@ -9,7 +9,7 @@ carousel:
   - link: /posts/post-1.html
   - text: Post 1
 ---
-
+{{page.carousel}}
 {% include carousel.html params=page.carousel %}
 <section class="sec-1">
   <div class="container">
