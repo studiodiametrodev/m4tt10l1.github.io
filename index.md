@@ -2,6 +2,7 @@
 title: m4t home page
 layout: default
 ---
+{{ page.slug }}
 {% include carousel.html %}
 <section class="sec-1">
   <div class="container">
