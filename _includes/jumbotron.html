@@ -1,4 +1,4 @@
-{% assign jumbotron = site.data.builder[include.slug].jumbotron %}
+{% assign jumbotron = site.data.builder[include.slug][jumbotron] %}
 <div class="jumbotron">
     <div class="container">
         <h2 class="display-3">{{ jumbotron.title }}</h2>
