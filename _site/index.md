@@ -17,3 +17,4 @@ carousel:
     <h1>{{ page.title }}</h1>
   </div>
 </section>
+(inside <b>_site</b>)
