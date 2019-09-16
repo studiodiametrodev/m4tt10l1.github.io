@@ -10,7 +10,8 @@ carousel:
   - text: Post 1
 ---
 {{page.carousel}}
-{% include carousel.html params=page.carousel %}
+{% assign page_carousel=page.carousel %}
+{% include carousel.html params=page_carousel %}
 <section class="sec-1">
   <div class="container">
     <h1>{{ page.title }}</h1>
