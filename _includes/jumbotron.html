@@ -1,4 +1,4 @@
-{% assign jumbotron = site.data.builder["{{include.slug}}"]["jumbotron"] %}
+{% assign jumbotron = include.params %}
 <div>slug: {{include.slug}}</div>
 {{ site.data.builder["post-1"] }}
 <div class="jumbotron">
