@@ -3,10 +3,10 @@ title: m4t home page
 layout: default
 slug: /
 carousel1:
-- carousel:
-  - title: Titolo carousel Home
-  - description: Descrizione del carousel in home page
-  - button:
+  - carousel:
+    - title: Titolo carousel Home
+    - description: Descrizione del carousel in home page
+    - button:
     - link: /posts/post-1.html
     - text: Post 1
 ---
