@@ -7,7 +7,6 @@ layout: backend.html
 <label>Risorsa</label> <input type="text" name="resource" value="post-2.json" />
 </div>
 <div>
-  <label>Dati</label> <textarea name="data">{{site.data.builder.post-1}}</textarea>
+  <label>Dati</label> <textarea name="data">{{site.data.builder["post-1"]}}</textarea>
 </div>
-
 </form>
