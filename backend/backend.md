@@ -1,7 +1,8 @@
 ---
 layout: backend.html
+# action: https://script.google.com/macros/s/AKfycbx4x-jvzx35vZAUiKHzkeB3hHCbqBPbaR09UD78_o3UtTGaqIM/dev
 ---
-<form action="https://script.google.com/macros/s/AKfycbx4x-jvzx35vZAUiKHzkeB3hHCbqBPbaR09UD78_o3UtTGaqIM/dev" method="post">
+<form action="https://script.google.com/macros/s/AKfycbwoVLxakcPYgo90LbiQ7F2P-ikPeKf3I0F9yFUjFvU/dev" method="post">
 <input type="hidden" name="key" value="_data/builder/post-2.json" />
 <div>
 <label>Risorsa</label> <input type="text" name="resource" value="_data/builder/post-2.json" />
