@@ -2,9 +2,8 @@
 {% assign modules = site.data.builder[include.slug] %}
 {% for module_hash in modules %}
 {% assign module = module_hash[1] %}
-<div class="module">
-  {{ module_hash[0] }}
-  
-  <div> {% include ".html" | prepend: module_hash[0] %} </div>
+{% assign module_file = ".html" | prepend: module_hash[0] %}
+<div class="module">  {{ module_hash[0] }}
+  <div> {% include module_file slug = include.slug  %} </div>
 </div>
 {% endfor %}
