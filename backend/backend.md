@@ -10,7 +10,7 @@ layout: backend.html
   <label>Dati</label> <textarea name="data">{{ site.data.builder["post-1"] }}</textarea>
 </div>
 <div class="text-center">
-  <button name="data" type="submit" class="btn btn-primary">salva</textarea>
+  <button name="data" type="submit" class="btn btn-primary">salva</button>
 </div>
   
 </form>
