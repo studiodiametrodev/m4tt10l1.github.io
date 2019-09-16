@@ -10,8 +10,9 @@ carousel1:
     - link: /posts/post-1.html
     - text: Post 1
 ---
+{% capture page_carousel %}{{page.carousel1}}{% endcapture %}
 
-{% include carousel.html params=page.carousel1 %}
+{% include carousel.html params=page_carousel %}
 <section class="sec-1">
   <div class="container">
     <h1>{{ page.title }}</h1>
