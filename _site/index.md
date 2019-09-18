@@ -1,5 +1,5 @@
 ---
-title: m4t home page
+title: m4t home page _site/index.md
 layout: default
 slug: /
 carousel:
