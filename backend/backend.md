@@ -12,7 +12,7 @@ slug: backend/backend
 {% endfor %}
   </ul>
   
-  <h3>post<h3>
+  <h3>post</h3>
   
 <ul>
 {% for post in site.posts %}
