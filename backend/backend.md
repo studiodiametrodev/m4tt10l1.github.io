@@ -3,6 +3,11 @@ layout: backend.html
 # action: https://script.google.com/macros/s/AKfycbx4x-jvzx35vZAUiKHzkeB3hHCbqBPbaR09UD78_o3UtTGaqIM/dev
 # action: https://script.google.com/macros/s/AKfycbwoVLxakcPYgo90LbiQ7F2P-ikPeKf3I0F9yFUjFvU/dev
 ---
+<ul>
+{% for page_hash in site.pages %}
+  <li>{{page_hash}}</li>
+{% endfor %}
+  </ul>
 <form action="https://script.google.com/macros/s/AKfycbx4x-jvzx35vZAUiKHzkeB3hHCbqBPbaR09UD78_o3UtTGaqIM/exec" method="post">
 <input type="hidden" name="key" value="_data/builder/post-2.json" />
 <div>
