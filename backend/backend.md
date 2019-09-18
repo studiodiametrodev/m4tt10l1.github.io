@@ -5,8 +5,8 @@ layout: backend.html
 ---
 <ul>
 {% for page_hash in site.pages %}
-  {% assign page = page_hash[1] %}
-  <li>{{page.title}} {{page.slug}}</li>
+  {% assign page = page_hash[0] %}
+  <li>{{page}}</li>
 {% endfor %}
   </ul>
 <form action="https://script.google.com/macros/s/AKfycbx4x-jvzx35vZAUiKHzkeB3hHCbqBPbaR09UD78_o3UtTGaqIM/exec" method="post">
