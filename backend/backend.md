@@ -5,6 +5,7 @@ slug: backend/backend
 # action: https://script.google.com/macros/s/AKfycbx4x-jvzx35vZAUiKHzkeB3hHCbqBPbaR09UD78_o3UtTGaqIM/dev
 # action: https://script.google.com/macros/s/AKfycbwoVLxakcPYgo90LbiQ7F2P-ikPeKf3I0F9yFUjFvU/dev
 ---
+<code>{{site.pages}}</code>
 <ul>
 {% for page in site.pages %}
   
