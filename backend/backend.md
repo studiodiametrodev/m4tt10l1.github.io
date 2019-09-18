@@ -4,8 +4,8 @@ layout: backend.html
 # action: https://script.google.com/macros/s/AKfycbwoVLxakcPYgo90LbiQ7F2P-ikPeKf3I0F9yFUjFvU/dev
 ---
 <ul>
-{% for page_hash in site.pages %}
-  {% assign page = page_hash[0] %}
+{% for page in site.pages %}
+  
   <li>{{page}}</li>
 {% endfor %}
   </ul>
