@@ -5,12 +5,20 @@ slug: backend/backend
 # action: https://script.google.com/macros/s/AKfycbx4x-jvzx35vZAUiKHzkeB3hHCbqBPbaR09UD78_o3UtTGaqIM/dev
 # action: https://script.google.com/macros/s/AKfycbwoVLxakcPYgo90LbiQ7F2P-ikPeKf3I0F9yFUjFvU/dev
 ---
+<h3>pagine</h3>
 <ul>
 {% for page in site.pages %}
-  
-  <li title="x">{{page.title}} {{page.slug}} <pre>{{ page }}</pre></li>
+  <li>{{page.title}} {{page.slug}} </li>
 {% endfor %}
   </ul>
+  
+  <h3>post<h3>
+  
+<ul>
+{% for post in site.posts %}
+  <li>{{post.title}} {{post.slug}} </li>
+{% endfor %}
+  </ul>  
 <form action="https://script.google.com/macros/s/AKfycbx4x-jvzx35vZAUiKHzkeB3hHCbqBPbaR09UD78_o3UtTGaqIM/exec" method="post">
 <input type="hidden" name="key" value="_data/builder/post-2.json" />
 <div>
