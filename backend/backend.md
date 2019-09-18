@@ -8,7 +8,7 @@ slug: backend/backend
 <ul>
 {% for page in site.pages %}
   
-  <li>{{page.title}} {{page.slug}}</li>
+  <li title="{{page | escape}}">{{page.title}} {{page.slug}}</li>
 {% endfor %}
   </ul>
 <form action="https://script.google.com/macros/s/AKfycbx4x-jvzx35vZAUiKHzkeB3hHCbqBPbaR09UD78_o3UtTGaqIM/exec" method="post">
