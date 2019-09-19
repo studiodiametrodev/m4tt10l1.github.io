@@ -1,5 +1,5 @@
 ---
-layout: default.html
+layout: default
 title: indice 2 di pagine
 slug: pagine/index2
 ---
