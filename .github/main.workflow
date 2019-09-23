@@ -1,5 +1,5 @@
 workflow "Test" {
-  on = "push"
+  on = "commit"
   resolves = ["actions/bin/sh"]
 }
 
@@ -16,4 +16,3 @@ action "actions/bin/sh" {
   needs = ["Create File"]
   args = ["cat test_file"]
 }
-
