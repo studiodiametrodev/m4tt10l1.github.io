@@ -1,8 +1,4 @@
-{% assign the_slug = include.slug %}
-{% if( "/" == the_slug) %}
-{% assign the_slug = "index.html" %}
-{% endif %}
-{% assign modules = site.data.builder[the_slug] %}
+{% assign modules = site.data.builder[include.slug] %}
 {% for module_hash in modules %}
 {% assign module = module_hash[1] %}
 {% assign module_file = ".html" | prepend: module_hash[0] %}
