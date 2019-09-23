@@ -1,3 +1,4 @@
 {
-"carousel": { "title": "Carousel", "description": "What is that?", "button": { "link": "/", "text": "show!" }}
+  "carousel": { "title": "Carousel", "description": "What is that?", "button": { "link": "/", "text": "show!" }}, 
+  "content": { "title": "", "description": "{{content}}"} 
 }
