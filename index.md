@@ -1,7 +1,7 @@
 ---
-title: m4t home page
+title: M4T home page
 layout: default
-slug: index.html
+slug: homepage
 carousel:
     title: Titolo carousel Home
     description: Descrizione del carousel in home page
