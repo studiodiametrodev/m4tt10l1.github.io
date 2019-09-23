@@ -1,6 +1,6 @@
 {% assign the_slug = include.slug %}
 {% if( "/" == the_slug) %}
-{% assign the_slug = "posts/index.html" %}
+{% assign the_slug = "index.html" %}
 {% endif %}
 {% assign modules = site.data.builder[the_slug] %}
 {% for module_hash in modules %}
