@@ -1,4 +1,6 @@
 { 
-  "jumbotron": { "title": "Jumbo Tron (inside)", "description": "What is that?", "button": { "link": "/", "text": "show!" }},
-  "carousel": { "title": "Carousel (inside)", "description": "What is that?", "button": { "link": "/", "text": "show!" }} 
+  "carousel": { "title": "Carousel (inside)", "description": "What is that?", "button": { "link": "/", "text": "show!" }}, 
+  "content": { "title": "", "description": "{{content}}"}, 
+  "jumbotron": { "title": "Jumbo Tron (inside)", "description": "What is that?", "button": { "link": "/", "text": "show!" }}
+  
 }
