@@ -18,8 +18,8 @@
           <a class="nav-link dropdown-toggle" href="#" id="dropdown10" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">My Blog</a>
           <div class="dropdown-menu" aria-labelledby="dropdown10">
               {% for post in site.posts %}
-              <a class="dropdown-item" href={{post.permalink}}">{{post.title}}</a>
-              {%endfor%}
+              <a class="dropdown-item" href="{{post.permalink}}">{{post.title}}</a>
+              {% endfor %}
           </div>
         </li>
       </ul>
